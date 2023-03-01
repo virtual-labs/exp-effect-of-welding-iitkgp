@@ -2,38 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Welding current controls",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Deposition rate",
+        "b": "Melting rate of electrode",
+        "c": "Both a & b",
+        "d": "None"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The change in welding voltage is determined by",
+      "answers": {
+        "a": "Change in arc length",
+        "b": "Change in workpiece ",
+        "c": "Both a & b ",
+        "d": "None"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
-      "question": "This is a Sample Question 2?",
+  {
+      "question": "Increased welding speed",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Reduces heat input",
+        "b": "Increase heat input",
+        "c": "Does not affect the heat input",
+        "d": "None"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Variation of electrode diameter ",
+      "answers": {
+        "a": "Does not impact weld bead geometry",
+        "b": "Impact weld bead shape",
+        "c": "Depends on the workpiece material",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Welding parameters effect",
+      "answers": {
+        "a": "Weld quality",
+        "b": "Weld shape",
+        "c": "Both a & b",
+        "d": "None of the above"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
-  ]
+
+]
 }
+
+
