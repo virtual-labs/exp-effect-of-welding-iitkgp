@@ -1,1 +1,7 @@
-### Link your references in here
+# References
+
+1. D. Pathak, R. Pratap Singh, S. Gaur, and V. Balu, “To study the influence of process parameters on weld bead geometry in shielded metal arc welding,” Mater. Today Proc., vol. 44, no. February, pp. 39–44, 2021, doi: 10.1016/j.matpr.2020.06.164
+2.	Welding Handbook- Welding Science and Technology 9th edition, Volume 2 by American Welding Society (2001). 
+3.	Robert W. Messler Jr - Principles of welding processes, Physics, chemistry, and metallurgy- Willey-VCH (2004)
+4.	J. Emuejevoke Omajene, “Effect of Welding Parameters on Weld Bead Shape for Welds Done Underwater,” Int. J. Mech. Eng. Appl., vol. 2, no. 6, p. 128, 2014, doi: 10.11648/j.ijmea.20140206.17.
+
