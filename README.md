@@ -4,12 +4,11 @@
 <b>Discipline | <b> Mechanical Engineerig
 :--|:--|
 <b> Lab | <b> Welding Lab
-<b> Experiment|     <b> Effect of welding parameters on the weld bead and Experiment 4
+<b> Experiment|     <b> Effect of welding parameters on the weld bead and Experiment 5
 
 ### About the Experiment 
 
-In this experiment, we examine the impact of several welding parameters, such as welding current, speed, and voltage. These variables control the heat input rate, which melts the base metal and filler wire. The effect of weld parameters on the size and geometry of the weld bead will be studied in this experiment.
-
+To understand the effect of different welding parameters on the weld bead profile.
 
 # Subject Matter Experts
 | SNo. | Name | Email | Institute | Profile |
@@ -20,7 +19,7 @@ In this experiment, we examine the impact of several welding parameters, such as
 ## Developer and Integration Engineer
 | SrNo | Name | Designation | Department | Institute |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Aditya Kameswara Rao Nandula** | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
+| 1 | **Aditya Kameswara Rao Nandula** | Senior Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
 
 ## Contributors List
 | SrNo | Name | Degree | Department | Institute |
