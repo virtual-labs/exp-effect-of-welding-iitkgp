@@ -7,8 +7,7 @@
 ## Developer and Integration Engineer
 | SrNo | Name | Designation | Department | Institute |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Aditya Kameswara Rao Nandula** | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
-
+| 1 | **Aditya Kameswara Rao Nandula** | Senior Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
 
 ## Contributors List
 | SrNo | Name | Degree | Department | Institute |
