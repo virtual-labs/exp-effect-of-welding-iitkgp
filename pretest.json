@@ -1,0 +1,63 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Welding current controls",
+      "answers": {
+        "a": "Deposition rate",
+        "b": "Melting rate of electrode",
+        "c": "Both a & b",
+        "d": "None"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The change in welding voltage is determined by",
+      "answers": {
+        "a": "Change in arc length",
+        "b": "Change in workpiece ",
+        "c": "Both a & b ",
+        "d": "None"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  {
+      "question": "Increased welding speed",
+      "answers": {
+        "a": "Reduces heat input",
+        "b": "Increase heat input",
+        "c": "Does not affect the heat input",
+        "d": "None"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Variation of electrode diameter ",
+      "answers": {
+        "a": "Does not impact weld bead geometry",
+        "b": "Impact weld bead shape",
+        "c": "Depends on the workpiece material",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Welding parameters effect",
+      "answers": {
+        "a": "Weld quality",
+        "b": "Weld shape",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+
+]
+}
+
+

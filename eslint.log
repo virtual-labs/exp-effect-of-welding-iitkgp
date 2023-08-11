@@ -1,0 +1,143 @@
+
+/home/runner/work/exp-effect-of-welding-iitkgp/exp-effect-of-welding-iitkgp/experiment/license/view.js
+  1:246  warning  Unnecessary semicolon  no-extra-semi
+
+/home/runner/work/exp-effect-of-welding-iitkgp/exp-effect-of-welding-iitkgp/experiment/simulation/js/adiwe4.js
+    8:5    warning  'ch' is assigned a value but never used  no-unused-vars
+   10:1    warning  '$' is not defined                       no-undef
+   16:9    warning  'i' is not defined                       no-undef
+   16:13   warning  'i' is not defined                       no-undef
+   16:19   warning  'i' is not defined                       no-undef
+   17:13   warning  'i' is not defined                       no-undef
+   17:19   warning  'i' is not defined                       no-undef
+   20:2    warning  Unnecessary semicolon                    no-extra-semi
+   25:9    warning  '$' is not defined                       no-undef
+   30:9    warning  '$' is not defined                       no-undef
+   33:23   warning  '$' is not defined                       no-undef
+   33:52   warning  '$' is not defined                       no-undef
+   33:81   warning  '$' is not defined                       no-undef
+   33:111  warning  '$' is not defined                       no-undef
+   33:141  warning  '$' is not defined                       no-undef
+   33:171  warning  '$' is not defined                       no-undef
+   34:31   warning  '$' is not defined                       no-undef
+   34:54   warning  '$' is not defined                       no-undef
+   34:77   warning  '$' is not defined                       no-undef
+   38:17   warning  '$' is not defined                       no-undef
+   39:17   warning  '$' is not defined                       no-undef
+   40:17   warning  '$' is not defined                       no-undef
+   41:17   warning  '$' is not defined                       no-undef
+   42:17   warning  '$' is not defined                       no-undef
+   43:17   warning  '$' is not defined                       no-undef
+   49:13   warning  '$' is not defined                       no-undef
+   50:13   warning  '$' is not defined                       no-undef
+   51:13   warning  '$' is not defined                       no-undef
+   52:13   warning  '$' is not defined                       no-undef
+   53:13   warning  '$' is not defined                       no-undef
+   54:13   warning  '$' is not defined                       no-undef
+   59:2    warning  Unnecessary semicolon                    no-extra-semi
+   63:9    warning  'i' is not defined                       no-undef
+   63:13   warning  'i' is not defined                       no-undef
+   63:26   warning  'i' is not defined                       no-undef
+   64:13   warning  'i' is not defined                       no-undef
+   64:23   warning  'i' is not defined                       no-undef
+   64:29   warning  'i' is not defined                       no-undef
+   67:2    warning  Unnecessary semicolon                    no-extra-semi
+   71:9    warning  'i' is not defined                       no-undef
+   71:13   warning  'i' is not defined                       no-undef
+   71:26   warning  'i' is not defined                       no-undef
+   72:13   warning  'i' is not defined                       no-undef
+   72:28   warning  'i' is not defined                       no-undef
+   75:2    warning  Unnecessary semicolon                    no-extra-semi
+   79:9    warning  'i' is not defined                       no-undef
+   79:13   warning  'i' is not defined                       no-undef
+   79:26   warning  'i' is not defined                       no-undef
+   80:13   warning  'i' is not defined                       no-undef
+   80:23   warning  'i' is not defined                       no-undef
+   83:2    warning  Unnecessary semicolon                    no-extra-semi
+   87:9    warning  'i' is not defined                       no-undef
+   87:13   warning  'i' is not defined                       no-undef
+   87:26   warning  'i' is not defined                       no-undef
+   88:13   warning  'i' is not defined                       no-undef
+   88:23   warning  'i' is not defined                       no-undef
+   91:2    warning  Unnecessary semicolon                    no-extra-semi
+   95:9    warning  'i' is not defined                       no-undef
+   95:13   warning  'i' is not defined                       no-undef
+   95:27   warning  'i' is not defined                       no-undef
+   96:13   warning  'i' is not defined                       no-undef
+   96:20   warning  'i' is not defined                       no-undef
+   96:27   warning  'i' is not defined                       no-undef
+   99:2    warning  Unnecessary semicolon                    no-extra-semi
+  102:3    warning  'bw' is not defined                      no-undef
+  103:3    warning  'bh' is not defined                      no-undef
+  104:3    warning  'bp' is not defined                      no-undef
+  108:3    warning  'xa' is not defined                      no-undef
+  108:18   warning  'bw' is not defined                      no-undef
+  108:32   warning  'bw' is not defined                      no-undef
+  109:3    warning  'xa2' is not defined                     no-undef
+  109:17   warning  'xa' is not defined                      no-undef
+  111:5    warning  'A' is not defined                       no-undef
+  111:14   warning  'bh' is not defined                      no-undef
+  111:27   warning  'bw' is not defined                      no-undef
+  112:5    warning  'B' is not defined                       no-undef
+  112:13   warning  'bh' is not defined                      no-undef
+  112:30   warning  'bw' is not defined                      no-undef
+  113:5    warning  'C' is not defined                       no-undef
+  113:13   warning  'bh' is not defined                      no-undef
+  113:25   warning  'bw' is not defined                      no-undef
+  113:47   warning  'bw' is not defined                      no-undef
+  113:57   warning  'bh' is not defined                      no-undef
+  113:89   warning  'bw' is not defined                      no-undef
+  114:5    warning  'y_up' is not defined                    no-undef
+  114:43   warning  'A' is not defined                       no-undef
+  114:45   warning  'xa2' is not defined                     no-undef
+  114:61   warning  'B' is not defined                       no-undef
+  114:63   warning  'xa' is not defined                      no-undef
+  114:68   warning  'C' is not defined                       no-undef
+  116:5    warning  'A' is not defined                       no-undef
+  116:13   warning  'bp' is not defined                      no-undef
+  116:26   warning  'bw' is not defined                      no-undef
+  117:5    warning  'B' is not defined                       no-undef
+  117:14   warning  'bp' is not defined                      no-undef
+  117:31   warning  'bw' is not defined                      no-undef
+  118:5    warning  'C' is not defined                       no-undef
+  118:14   warning  'bp' is not defined                      no-undef
+  118:26   warning  'bw' is not defined                      no-undef
+  118:48   warning  'bw' is not defined                      no-undef
+  118:58   warning  'bp' is not defined                      no-undef
+  118:90   warning  'bw' is not defined                      no-undef
+  119:5    warning  'y_down' is not defined                  no-undef
+  119:45   warning  'A' is not defined                       no-undef
+  119:47   warning  'xa2' is not defined                     no-undef
+  119:63   warning  'B' is not defined                       no-undef
+  119:65   warning  'xa' is not defined                      no-undef
+  119:70   warning  'C' is not defined                       no-undef
+  122:3    warning  'x1' is not defined                      no-undef
+  123:3    warning  'y1' is not defined                      no-undef
+  123:16   warning  'x1' is not defined                      no-undef
+  124:3    warning  'x2' is not defined                      no-undef
+  125:3    warning  'y2' is not defined                      no-undef
+  125:16   warning  'x1' is not defined                      no-undef
+  126:3    warning  'y3' is not defined                      no-undef
+  127:3    warning  'x3' is not defined                      no-undef
+  127:16   warning  'y3' is not defined                      no-undef
+  128:3    warning  'y4' is not defined                      no-undef
+  129:3    warning  'x4' is not defined                      no-undef
+  129:16   warning  'y3' is not defined                      no-undef
+  132:12   warning  'xa' is not defined                      no-undef
+  133:12   warning  'y_up' is not defined                    no-undef
+  138:12   warning  'xa' is not defined                      no-undef
+  139:12   warning  'y_down' is not defined                  no-undef
+  144:12   warning  'x1' is not defined                      no-undef
+  145:12   warning  'y1' is not defined                      no-undef
+  150:12   warning  'x2' is not defined                      no-undef
+  151:12   warning  'y2' is not defined                      no-undef
+  156:12   warning  'x3' is not defined                      no-undef
+  157:12   warning  'y3' is not defined                      no-undef
+  162:12   warning  'x4' is not defined                      no-undef
+  163:12   warning  'y4' is not defined                      no-undef
+  215:5    warning  'Plotly' is not defined                  no-undef
+  216:2    warning  Unnecessary semicolon                    no-extra-semi
+
+✖ 135 problems (0 errors, 135 warnings)
+  0 errors and 9 warnings potentially fixable with the `--fix` option.
+
