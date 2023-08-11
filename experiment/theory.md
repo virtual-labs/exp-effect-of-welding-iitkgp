@@ -1,6 +1,13 @@
 #  Introduction
 
-In this experiment, we examine the impact of several welding parameters, such as welding current, speed, and voltage. These variables control the heat input rate, which melts the base metal and filler wire. The effect of weld parameters on the size and geometry of the weld bead will be studied in this experiment.
+In this experiment, we examine the impact of several welding parameters, such as welding current, speed, and voltage. These variables control the heat input rate, which melts the base metal and filler wire. The effect of weld parameters on the size and geometry of the weld bead will be studied in this experiment. A schematic diagram of the weld bead with the nomenclature of the bead geometry is given below in Figure 1.
+
+<center>
+<img src="./images/Picture1.png" style="width:50%">
+
+##### Fig. 1 : A schematic diagram of the weld bead geometry 
+</center>
+
 
 # Theory:
 
