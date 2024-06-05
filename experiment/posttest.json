@@ -9,6 +9,12 @@
         "c": "Both a & b",
         "d": "None of the above"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "Narrow bead",
         "c": "Both (a) and (b)",
         "d": "None of the above"
+      },
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Narrower weld bead",
         "d": "All of the above"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -41,6 +59,12 @@
         "b": "Deeper penetration",
         "c": "Both (a) and (b)",
         "d": "None"
+      },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -53,6 +77,12 @@
         "c": "Both a & b",
         "d": "None of the above"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -63,6 +93,12 @@
         "b": "Larger HAZ",
         "c": "Wider bead width",
         "d": "None"
+      },      
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -75,6 +111,12 @@
         "c": "Reduced porosity by rust on steels",
         "d": "All of the above"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -85,6 +127,12 @@
         "b": "Poor penetration",
         "c": "More reinforcement",
         "d": "Both a & b"
+      },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
