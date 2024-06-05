@@ -9,6 +9,12 @@
         "c": "Both a & b",
         "d": "None"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "Change in workpiece ",
         "c": "Both a & b ",
         "d": "None"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Does not affect the heat input",
         "d": "None"
       },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -42,6 +60,12 @@
         "c": "Depends on the workpiece material",
         "d": "None of the above"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -52,6 +76,12 @@
         "b": "Weld shape",
         "c": "Both a & b",
         "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
