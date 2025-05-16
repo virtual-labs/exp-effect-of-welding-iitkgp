@@ -1,0 +1,158 @@
+<!--
+ This HTML file is developed by
+Aditya Kameswara Rao Nandula
+Senior Project Scientist,
+Virtual Labs IIT Kharagpur.
+LinkedIn: https://in.linkedin.com/in/akraonandula/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Effect of welding parameters on the weld bead</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/adik.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="./css/adiwe4.css" rel="stylesheet">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./js/adiwe4.js"></script>
+    
+</head>
+<body>
+    <div class="container p-3 my-3 text-primary text-center border">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid rounded" src="./images/vlabs.png" alt="VLabs logo">
+            </div>
+            <div class="col-md-6">
+                <p class="display-3"> <b> Virtual Labs <br> IIT Kharagpur </b> </p>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid rounded" src="./images/iitkgp.png" alt="IIT KGP Logo" >
+            </div>
+        </div>
+    
+    </div>
+    <div class="container p-3 my-5 text-left border">
+      <div class="row ">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <p class="text-center"> <h3 class=" my-5 text-primary"> Instructions: </h3>
+            <ol id="inst">
+              <li class="h5 text-secondary"> Before starting the process read the instructions completely</li>
+              <li>Choose the <strong> Arc Voltage (in Volts) </strong> of any Real Value between <strong> 16 </strong> and <strong>21</strong></li>
+              <li>Choose the <strong> Arc Speed (in mm/min) </strong> of any Real Value between <strong> 0.3 </strong> and <strong>0.5</strong></li>
+              <li>Choose the <strong> Arc Current (in Ampere) </strong> of any Real Value between <strong> 320 </strong> and <strong>400</strong></li>
+              <!--<li>Choose the <strong> Stand off distance (in mm) </strong> of any Real Value between <strong> 2 </strong> and <strong>8</strong></li>-->
+              <li> Click on <strong>Submit</strong> button</li>
+              <li>Observe the plot and hover the mouse on plot for the weld bead dimensions i.e., reinforcement height, penetrationdepth, and bead width obtained, for the chosen weld parameters</li>
+
+            </ol>
+          </p> 
+          
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div><br>
+
+    <div class="container p-3 my-5 border">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 ">
+              <ul class="nav nav-pills nav-justified " role="tablist">
+              <li class="nav-item bg-success">
+                  <a class="nav-link" data-bs-toggle="tab" href="#Strt" onclick="$('#inst').hide();"><span class=" h3 text-dark"> Start </span></a>
+              </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <li class="nav-item bg-danger">
+                  <a class="nav-link" data-bs-toggle="tab" href="#" onclick="window.location.reload();"><span class=" h3 text-dark"> Stop </span></a>
+              </li>
+              </ul><br>
+              <div class="tab-content"><br>
+                  <div id="Strt" class="container p-3 tab-pane fade border border-3"><br>
+                      <div class="row p-3 border border-3"><br>
+                          <div class="col-sm-12 "><br>
+                            <div >
+                              <div class="h4"> <strong> Enter the values </strong><br></div>
+
+                              <table class="table table-hover table-borderless" id="evtbl"><br>
+                                <tr>
+                                  <td class=" tdb "> Arc Voltage <br> (in Volts): </td>
+                                  <td class="ent text-center"> <input type="number" id="av" placeholder="Real Value between 16 & 21 " onclick="adiwe4(3);"> </td>
+                                  <td> <b> Note:</b> Choose any Real Value between <strong> 16 and 21</strong></td>
+                                </tr>
+                                <tr>
+                                  <td class=" tdb "> Arc Speed <br> (in mm/min): </td>
+                                  <td class="ent text-center"> <input type="number" id="as" placeholder="Real Value between 0.3 & 0.5 " onclick="adiwe4(4);"> </td>
+                                  <td><b> Note:</b> Choose any Real Value between <strong> 0.3 and 0.5</strong></td>
+                                </tr>
+                                <tr>
+                                  <td class=" tdb "> Arc Current <br> (in Ampere): </td>
+                                  <td class="ent text-center"> <input type="number" id="ac" placeholder="Real Value between 320 & 400 " onclick="adiwe4(5);"> </td>
+                                  <td><b> Note:</b>Choose any Real Value between <strong> 320 and 400</strong></td>
+                                </tr>
+                                <!--
+                                <tr>
+                                  <td class="d-flex justify-content-end"> Stand off distance (in mm): </td>
+                                  <td class="text-center"> <input type="number" id="ad" placeholder="Real Value between 2 & 8 " onclick="adiwe4(6);"> </td>
+                                  <td><b> Note:</b>Choose any Real Value between <strong> 2 and 8</strong></td>
+                                </tr>--> 
+                              </table>
+                            </div>
+                                <div class="d-flex justify-content-center">
+                                  <ul class="nav nav-pills nav-justified" role="tablist"> 
+                                <div class="row ">
+                                  <div class="col"><br> 
+                                      <li class="nav-item nav-link p-1 rounded border border-5 "  data-bs-toggle="tab">
+                                        <a  onclick="adiwe4(1);">  <span class="h5"> Submit </span></a>
+                                      </li> </div>
+                                      <div class="col"><br> 
+                                      <li class="nav-item nav-link p-1 rounded border border-5 float-right"  data-bs-toggle="tab" >
+                                         <a onclick="adiwe4(2);"> <span class="h5"> Reset </span></a>
+                                      </li>
+                                  </div><br> 
+                                </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="row p-3 border border-3"><br>
+                          <div class="col-md-12"><br>
+                                 <div id="grph"> </div>
+
+                                  <br>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-1"></div>
+      </div>
+    </div>
+
+
+    <div class="container p-3 my-5 text-primary text-center border">
+      <div class="row">
+        <footer>
+          <div class="row ce">
+            <div class="col-sm-12">
+              <p class="h5"><i> Copyright ©2022 <a href="http://vlabs.iitkgp.ac.in/vlt/">Virtual Labs IIT Kharagpur</a> </i><br><br>
+              <a href="../license/index.html" target="_blank"> Licensing Terms </a>
+            </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+  </div>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
