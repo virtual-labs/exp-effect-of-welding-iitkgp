@@ -5,9 +5,9 @@ new Knob(document.getElementById('ar3'), new Ui.P1());
 var d1, c1, d2, c2, d3, c3, o1,o2,o3;
 
 $(document).ready(function(){
-o1 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:16, max:21, minorTicks: 5};
-o2 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:0.3, max:0.5, minorTicks: 5};
-o3 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:320, max:400, minorTicks: 5};
+o1 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:25, max:41, minorTicks: 5};
+o2 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:20, max:30, minorTicks: 5};
+o3 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:180, max:360, minorTicks: 5};
 $("#ar1v").text($("#ar1").val());
 $("#ar2v").text($("#ar2").val());
 $("#ar3v").text($("#ar3").val());
@@ -41,9 +41,9 @@ $('#adem a').click(function () {
 
 google.charts.load('current', {'packages':['gauge']});
 function adi(){
-    o1 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:16, max:21, minorTicks: 5};
-    o2 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:0.3, max:0.5, minorTicks: 5};
-    o3 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:320, max:400, minorTicks: 5};  
+    o1 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:25, max:41, minorTicks: 5};
+    o2 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:20, max:30, minorTicks: 5};
+    o3 = {width: Math.round(Number($("#adisimg").width())*0.08),  min:180, max:360, minorTicks: 5};  
     d1 = google.visualization.arrayToDataTable([['Label', 'Value'],['Arc Speed', Number($("#ar1").val())]]);
     d2 = google.visualization.arrayToDataTable([['Label', 'Value'],['Volt. (V)', Number($("#ar2").val())]]);
     d3 = google.visualization.arrayToDataTable([['Label', 'Value'],['Amp. (A)', Number($("#ar3").val())]]);
