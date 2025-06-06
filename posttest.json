@@ -1,0 +1,191 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Welding issues due to weak welding current are",
+      "answers": {
+        "a": "Poor penetration",
+        "b": "Unstable arc",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Arc voltage beyond optimum value generates",
+      "answers": {
+        "a": "Broad bead",
+        "b": "Narrow bead",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Increased welding speed can cause",
+      "answers": {
+        "a": "Reduction in the amount of filler metal",
+        "b": "Undercutting",
+        "c": "Narrower weld bead",
+        "d": "All of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Reduced welding voltage generates",
+      "answers": {
+        "a": "Intense arc",
+        "b": "Deeper penetration",
+        "c": "Both (a) and (b)",
+        "d": "None"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Slow welding speed ",
+      "answers": {
+        "a": "Allows molten gases to escape",
+        "b": "Lowers porosity",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Faster welding speed generates",
+      "answers": {
+        "a": "Smaller HAZ",
+        "b": "Larger HAZ",
+        "c": "Wider bead width",
+        "d": "None"
+      },      
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Unreasonably high welding voltage can result in",
+      "answers":{ 
+        "a": "Cracking in the weld bead",
+        "b": "More difficult slag removal",
+        "c": "Reduced porosity by rust on steels",
+        "d": "All of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Low welding current can cause",
+      "answers":{ 
+        "a": "Unstable arc",
+        "b": "Poor penetration",
+        "c": "More reinforcement",
+        "d": "Both a & b"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "for welding thicker material electrode diameter should be",
+      "answers": {
+        "a": "Large",
+        "b": "small",
+        "c": "does not depend on electrode diameter"
+      },
+      "explanations": {
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is the reason for cracks and undercut in weld bead?",
+      "answers": {
+        "a": "Higher welding voltage",
+        "b": "lower welding voltage",
+        "c": "higher welding speed",
+        "d": "all of the above"
+      },
+      "explanations": {
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+{
+      "question": "When welding thin sheets, a key parameter to control to avoid burn hole is",
+      "answers": {
+        "a": "Welding Current",
+        "b": "Travel speed",
+        "c": "Arc Voltage",
+        "d": "electrode type"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+]
+}
