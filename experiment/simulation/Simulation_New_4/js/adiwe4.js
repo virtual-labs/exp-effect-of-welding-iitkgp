@@ -22,6 +22,7 @@ function adibtn(){
         $("#stp1").show();
         $("#stp2").hide();
         $("#stp3").hide();
+        $("#adiprmt").html("<strong class=\"text-danger\">Select the Voltage and Current</strong>");
     }
     else{
         alert("Read the instructions and select the values from the dropdown");
@@ -32,12 +33,18 @@ function adibtn(){
     adib=2;
     $("#stp1").addClass("dsbld");
     $("#stp2").show();
+    $("#adiprmt").html("<strong  class=\"text-danger\">Select the Welding Speed</strong>");
  } 
  else if(adib==2){
-    adib=4;
+    adib=3;
     $("#stp2").addClass("dsbld");
-    $("#stp3").show();
-    $("#adibtn").hide();
+    $("#stp3").hide();
+    $("#adibtn").text("Submit");
+    $("#adiprmt").html("<strong  class=\"text-danger\">Click on Submit button</strong>");
+ }
+ else if(adib==3){
+ adiwe4(1);    
+ $("#adiprmt").html("");
  }
 }
 
@@ -56,6 +63,7 @@ function adiwe4(a){
     {
         $("#grph").show();
         if(a==1){
+            $("#adiprmt").html("");
             $("#adis").hide();
             $("#adisimg").hide();
             $("#adibtn").hide();
@@ -65,7 +73,13 @@ function adiwe4(a){
                 $("#adiv").show();
                 $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Adi3_Vid.mp4\" type=\"video/mp4\"> </video> </div>");
                     document.getElementById("adivid").onended=function(){
-                $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/Pi2.png\" /></div>");
+                $("#adivid").hide();
+                $("#adis").show(); 
+                $("#adisimg").attr("src", "./images/Pi2.png");
+                $("#adisimg").show();
+                $("#stp1").show();
+                $("#stp2").show();
+                $("#stp3").hide();
                 adin4e(Number($("#ar1").val()),Number($("#ar2").val()),Number($("#ar3").val()),Number($('#adidrp').text()));
                 adiplt(Number($("#ar1").val()),Number($("#ar2").val()),Number($("#ar3").val()),Number($('#adidrp').text()));
                 }

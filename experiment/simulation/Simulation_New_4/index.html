@@ -50,16 +50,16 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
               <li>Click on <strong>Next</strong> button</li>
               <li>Choose the <strong> Arc Voltage (in Volts) </strong> of any Real Value between <strong> 20 </strong> and <strong>30</strong></li>
               <li>Click on <strong>Next</strong> button</li>
-              <li>Choose the <strong> Arc Speed (in mm/min) </strong> of any Real Value between <strong> 25 </strong> and <strong>41</strong></li>
-              <li>Click on <strong>Next</strong> button</li>
               <li>Choose the <strong> Arc Current (in Ampere) </strong> of any Real Value between <strong> 180 </strong> and <strong>360</strong></li>
               <li> Click on <strong>Submit</strong> button</li>
+              <li>Choose the <strong> Welding Speed (in mm/min) </strong> of any Real Value between <strong> 25 </strong> and <strong>41</strong></li>
+              <li>Click on <strong>Submit</strong> button</li>
               <li>Observe the Welding simulation starts and it shows the final welded portion.</li>
               <li>Observe the plot and hover the mouse on plot for the weld bead dimensions i.e., reinforcement height, penetrationdepth, and bead width obtained, for the chosen weld parameters</li>
                 <ul class="text-primary h6"><b>
                   <p class="text-center"> <h5 class="text-danger"> <b>Note:</b> </h5>
                   <li>Use scroll button to change the value of the knob </li>
-                  <li>After Simulation is over, click on button to restart the experiment</li></b>
+                  <li>After Simulation is over, click on "Stop" button to restart the experiment</li></b>
                 </ul>
             </ol>
           </p> 
@@ -86,7 +86,6 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                   <div id="Strt" class="container p-3 tab-pane fade "><br>
                       <div class="row p-3 border border-3"><br>
                           <div class="col-sm-12 "><br>
-                            <div id="adiv"></div>
                             <div class="row">
                             <div class="col-md-6" id="adis">
                               <div class="dropdown text-primary">
@@ -99,7 +98,7 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                                     <li><a class="dropdown-item" >1.6</a></li>
                                   </ul> &emsp; &emsp; &emsp; 
                             </div> </div><div class="col-md-6"> 
-                              <button type="submit" class="btn btn-success btn-lg float-right" id="adibtn" onclick="adibtn();">Next</button>
+                              <button type="submit" class="btn btn-success btn-lg float-right" id="adibtn" onclick="adibtn();">Next</button>&emsp; <span id="adiprmt"></span>
                             </div>
                             
                                         <div class="adirel"><img class="img img-fluid" id="adisimg" src="./images/Pi1.png" alt="Hardware Setup"></div>
@@ -123,7 +122,7 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                                             </div><br>
                                             <div class="adirel adig1" id="adi1"></div><br>
                                         </div>
-                                        
+                                        <div id="adiv"></div>
                             </div>
                             <script src="./js/knob.js"></script>
                               <script src="./js/ui.js"></script>
