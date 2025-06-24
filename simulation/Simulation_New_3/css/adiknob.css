@@ -1,0 +1,44 @@
+.p1 rect {
+    fill: #06f141;
+  }
+  
+  .p1 g polygon {
+    opacity: 1;
+  }
+  
+  .p1 circle {
+    fill: rgb(88, 5, 136);
+    stroke: rgba(1, 3, 23, 1);
+    stroke-width: 2;
+    filter: url(#dropshadow);
+  }
+  
+  .p1 text {
+    font-size: 10px;
+    fill: #000000;
+    font-family: sans-serif;
+    font-weight: 30;
+  }
+  
+  .p1 text.active {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .scale .active{
+    fill: red;
+  }
+  #adisimg{
+    z-index: -5;
+  }
+  .adirel{
+    position: relative;
+    /*min-width: 1080px;*/
+  }
+.adik1 .adik2 .adik3 .adig1 .adig2 .adig3  {
+  border: 0em;
+  padding: 0em;
+  margin:-95px auto 0 auto;
+  display:block;
+}
+

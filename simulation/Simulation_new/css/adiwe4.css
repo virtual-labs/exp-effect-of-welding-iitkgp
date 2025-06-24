@@ -1,0 +1,29 @@
+/**
+ This Scrtpt file is developed by
+Aditya Kameswara Rao Nandula
+Senior Project Scientist,
+Virtual Labs IIT Kharagpur.
+LinkedIn: https://in.linkedin.com/in/akraonandula/
+ */
+ 
+#grph{
+    width: content;
+    height: content;
+}
+
+table{
+    border-width: 0mm;
+}
+tr, td{
+    width: fit-content;
+    border-width: 0mm;
+}
+.tdb{
+width: 10em;
+text-align: end;
+}
+
+.ent{
+    width: 10em;
+    }
+    

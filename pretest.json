@@ -1,0 +1,138 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Welding current controls",
+      "answers": {
+        "a": "Deposition rate",
+        "b": "Melting rate of electrode",
+        "c": "Both a & b",
+        "d": "None"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The change in welding voltage is determined by",
+      "answers": {
+        "a": "Change in arc length",
+        "b": "Change in workpiece ",
+        "c": "Both a & b ",
+        "d": "None"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  {
+      "question": "Increased welding speed",
+      "answers": {
+        "a": "Reduces heat input",
+        "b": "Increase heat input",
+        "c": "Does not affect the heat input",
+        "d": "None"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Variation of electrode diameter ",
+      "answers": {
+        "a": "Does not impact weld bead geometry",
+        "b": "Impact weld bead shape",
+        "c": "Depends on the workpiece material",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Welding parameters effect",
+      "answers": {
+        "a": "Weld quality",
+        "b": "Weld shape",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Heat affected zone is mainly depend on which welding parameter?",
+      "answers": {
+        "a": "Welding Current",
+        "b": "Welding Voltage",
+        "c": "electrode diameter",
+        "d": "welding speed"
+      },
+      "explanations": {
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of power supply has a higher heating rate?",
+      "answers": {
+        "a": "AC power supply",
+        "b": "DC power supply",
+        "c": " none of the above"
+      },
+      "explanations": {
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+  {
+      "question": "Melting of base material increases as",
+      "answers": {
+        "a": "welding current Increases",
+        "b": "welding current decreases",
+        "c": "does not depend on the variation of welding current"
+      },
+      "explanations": {
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+]
+}
