@@ -197,7 +197,7 @@ Spdv.forEach(function(s) {
 var Sdtc1=gtcol(Sdata,0);
 var Sdtc2=gtcol(Sdata,1);
 var Sdtc3=gtcol(Sdata,2);
-adipltm(Spdv,Sdtc1,Sdtc2,Sdtc3,"Arc Speed (mm/min)", "Effect of Welding Speed",3);
+adipltm(Spdv,Sdtc1,Sdtc2,Sdtc3,"Welding Speed (mm/min)", "Effect of Welding Speed",3);
 Diav.forEach(function(d) {
    wb=Wldg3(V,S,I,d);
    Ddata.push(wb);
