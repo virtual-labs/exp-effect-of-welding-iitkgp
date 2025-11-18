@@ -6,10 +6,91 @@ Virtual Labs IIT Kharagpur.
 LinkedIn: https://in.linkedin.com/in/akraonandula/
  */
 var ch=0;
+var adib=0.0;
 var x_0 = 40,y_0 = 40;
 $(document).ready(function(){
     adiwe4(0);
+    //$('#adidrp').text('0.0');
 });
+
+
+function adibtn(){
+ if(adib==0){
+    if(Number($('#adidrp').text())>1.1){
+        adib=1;
+        $("#adidrp").addClass("disabled");
+        $("#stp1").show();
+        $("#stp2").hide();
+        $("#stp3").hide();
+        $("#adiprmt").html("<strong class=\"text-danger\">Select the Voltage and Current</strong>");
+    }
+    else{
+        alert("Read the instructions and select the values from the dropdown");
+    }
+    
+ }  
+ else if(adib==1){
+    adib=2;
+    $("#stp1").addClass("dsbld");
+    $("#stp2").show();
+    $("#adiprmt").html("<strong  class=\"text-danger\">Select the Welding Speed</strong>");
+ } 
+ else if(adib==2){
+    adib=3;
+    $("#stp2").addClass("dsbld");
+    $("#stp3").hide();
+    $("#adibtn").text("Submit");
+    $("#adiprmt").html("<strong  class=\"text-danger\">Click on Submit button</strong>");
+ }
+ else if(adib==3){
+ adiwe4(1);    
+ $("#adiprmt").html("");
+ }
+}
+
+function adiwe4(a){
+    if(a==0)
+    {
+        $("#grph").hide();    
+        $("#adiv").hide();
+        $("#adis").show();    
+        $("#stp1").hide();
+        $("#stp2").hide();
+        $("#stp3").hide();            
+        ch=0;
+    }
+    else
+    {
+        $("#grph").show();
+        if(a==1){
+            $("#adiprmt").html("");
+            $("#adis").hide();
+            $("#adisimg").hide();
+            $("#adibtn").hide();
+            $("#stp1").hide();
+            $("#stp2").hide();
+            $("#stp3").hide();
+                $("#adiv").show();
+                $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Adi3_Vid.mp4\" type=\"video/mp4\"> </video> </div>");
+                    document.getElementById("adivid").onended=function(){
+                $("#adivid").hide();
+                $("#adis").show(); 
+                $("#adisimg").attr("src", "./images/Pi2.png");
+                $("#adisimg").show();
+                $("#stp1").show();
+                $("#stp2").show();
+                $("#stp3").hide();
+                adin4e(Number($("#ar1").val()),Number($("#ar2").val()),Number($("#ar3").val()),Number($('#adidrp').text()));
+                adiplt(Number($("#ar1").val()),Number($("#ar2").val()),Number($("#ar3").val()),Number($('#adidrp').text()));
+                }
+            
+        }
+        else if(a==2){
+            window.location.reload();
+        }
+    }
+
+};
 
 function rng(s,e,st){
     var adi=[];
@@ -19,44 +100,21 @@ function rng(s,e,st){
     return adi;
 };
 
-function adiwe4(a){
-    if(a==0)
-    {
-        $("#grph").hide();    
-        ch=0;
-    }
-    else
-    {
-        $("#grph").show();
-        if(a==1){
-            //adiplt(Number($("#av").val()),Number($("#as").val()),Number($("#ac").val()),Number($("#ad").val()));
-            if(Number($("#av").val())>15 && Number($("#av").val())<22 || Number($("#as").val())>0.2 && Number($("#as").val())<0.6 || Number($("#ad").val())>319 && Number($("#ad").val())<401 ){
-                adiplt(Number($("#av").val()),Number($("#as").val()),Number($("#ac").val()),Number(2));
-            }
-            else
-            {
-                $("#grph").hide();
-                $('#inst').show();
-                $('#av').val('');
-                $('#ad').val('');    
-                $('#ac').val('');
-                $('#as').val('');
-            ch=0;
-                alert("Read the instructions and enter the right values");
-            }
-        }
-        else if(a==2){
-            $("#grph").hide();
-            $('#inst').show();
-            $('#av').val('');
-            $('#ad').val('');    
-            $('#ac').val('');
-            $('#as').val('');
-            ch=0;
-        }
-    }
+function Wldg3(V,S,I,D){
+  var b_w = (D**(0.4294))*(S**(-0.4590))*(I**(0.3518))*(V**(0.7083))*(10**(-0.0905));
+  var b_h = (D**(-0.1255))*(S**(-0.2395))*(I**(0.6387))*(V**(-0.7183))*(10**(0.3339));
+  var b_p = (D**(-0.5668))*(S**(-0.3641))*(I**(1.4005))*(V**(0.013))*(10**(-2.3098));
+  return [b_w, b_h, b_p];
+}
 
-};
+function gtcol(mat, colidx) {
+  const col = [];
+  for (let i = 0; i < mat.length; i++) {
+    col.push(mat[i][colidx]);
+  }
+ return col;
+}
+
 
 function adimul(muf,rn){
     var res=[];
@@ -90,6 +148,14 @@ function adismatsum(rn,sca){
     return res;
 };
 
+function adismatdiv(rn,sca){
+    var res=[];
+    for(i=0;i<=rn.length;i++){
+        res[i]=sca*rn[i]/rn[i];
+    }
+    return res;
+};
+
 function adimatsum(rn1,rn2){
     var res=[];
     for(i=0;i<=rn1.length;i++){
@@ -98,13 +164,56 @@ function adimatsum(rn1,rn2){
     return res;
 };
 
-function adiplt(v, s, i, h){
-  bw = 12.202+(i*0.0746)+(0.2196*h)+(0.0436*v)-(48.517*s);
-  bh = -1.059+(0.016*i)+(0.1296*h)+(0.028*v)-(9.033*s);
-  bp = 16.403-(0.002*i)-(0.173*h)-(0.112*v)-(9.287*s);
- 
-  x_0 = 40;
-  y_0 = 40;
+function adin4e(S, V, I, D){
+var Volv=rng(20,30,100);
+var Spdv=rng(25,41,100);
+var Curv=rng(180,360,100);
+var Diav=rng(1.2,1.6,100);  
+var wb=[];
+var Vdata = [];
+var Sdata = [];
+var Cdata = [];
+var Ddata = [];
+Volv.forEach(function(v) {
+   wb=Wldg3(v,S,I,D);
+   Vdata.push(wb);
+});
+var Vdtc1=gtcol(Vdata,0);
+var Vdtc2=gtcol(Vdata,1);
+var Vdtc3=gtcol(Vdata,2);
+adipltm(Volv,Vdtc1,Vdtc2,Vdtc3,"Voltage (V)", "Effect of Voltage",1);
+Curv.forEach(function(c) {
+   wb=Wldg3(V,S,c,D);
+    Cdata.push(wb);
+});
+var Cdtc1=gtcol(Cdata,0);
+var Cdtc2=gtcol(Cdata,1);
+var Cdtc3=gtcol(Cdata,2);
+adipltm(Curv,Cdtc1,Cdtc2,Cdtc3,"Current (A)", "Effect of Current",2);
+Spdv.forEach(function(s) {
+   wb=Wldg3(V,s,I,D);
+   Sdata.push(wb);
+});
+var Sdtc1=gtcol(Sdata,0);
+var Sdtc2=gtcol(Sdata,1);
+var Sdtc3=gtcol(Sdata,2);
+adipltm(Spdv,Sdtc1,Sdtc2,Sdtc3,"Welding Speed (mm/min)", "Effect of Welding Speed",3);
+Diav.forEach(function(d) {
+   wb=Wldg3(V,S,I,d);
+   Ddata.push(wb);
+});
+var Ddtc1=gtcol(Ddata,0);
+var Ddtc2=gtcol(Ddata,1);
+var Ddtc3=gtcol(Ddata,2);
+adipltm(Diav, Ddtc1, Ddtc2, Ddtc3,"Wire Diameter (mm)", "Effect of Wire Diameter",4);
+}
+
+function adiplt(S, V, I, D){
+  var bw = (D**(0.4294))*(S**(-0.4590))*(I**(0.3518))*(V**(0.7083))*(10**(-0.0905));
+  var bh = (D**(-0.1255))*(S**(-0.2395))*(I**(0.6387))*(V**(-0.7183))*(10**(0.3339));
+  var bp = (D**(-0.5668))*(S**(-0.3641))*(I**(1.4005))*(V**(0.013))*(10**(-2.3098));
+  x_0 = 2;
+  y_0 = 2;
   xa = rng((x_0-(bw/2)), (x_0+(bw/2)), 1000);
   xa2=adimatmul(xa,2);
   // equation for upper curve
@@ -119,25 +228,47 @@ function adiplt(v, s, i, h){
     y_down =adismatsum(adimatsum(adismatmul(A,xa2),adismatmul(B,xa)),C);
 
 
-  x1=rng(20, 60, 1000);
-  y1=adimul(20,x1);
-  x2=rng(20, 60, 1000);
-  y2=adimul(40,x1);
-  y3=rng(20, 40, 1000);
-  x3=adimul(20,y3);
-  y4=rng(20, 40, 1000);
-  x4=adimul(60,y3);
+  x1=rng(x_0-15, x_0+15, 1000);
+  y1=adismatdiv(x1,y_0);
+  x2=x1;
+  y2=adismatdiv(x1,x_0-15);
+  y3=rng(x_0-15, x_0, 1000);
+  x3=adismatdiv(y3,x_0-15);
+  x4=adismatdiv(y3,x_0+15);
+  y4=rng(y_0-15, y_0, 1000);
 
 var g1 = {
         x: xa,
         y: y_up,
+        name: 'Reinforcement Zone',
         type: 'scatter',
-        name: 'Reinforcement Zone'
+        mode: 'lines',
+        fill: 'toself',
+        fillcolor: 'rgba(236, 56, 56, 0.7)',
+        fillpattern: {
+            shape: '/',
+            fgcolor: 'blue',
+            bgcolor: 'rgba(137, 240, 171, 1)'
+          },
+        line: {
+            color: 'rgb(31, 119, 180)'
+          }
     };
 var g2 = {
         x: xa,
         y: y_down,
         type: 'scatter',
+        mode: 'lines',
+        fill: 'toself',
+        fillcolor: 'rgba(236, 56, 56, 0.7)',
+        fillpattern: {
+            shape: '\\',
+            fgcolor: 'red',
+            bgcolor: 'rgba(161, 208, 241, 1)'
+          },
+        line: {
+            color: 'rgba(248, 5, 5, 1)'
+          },
         name: 'Penetration Zone'
     };
 var g3 = {
@@ -164,53 +295,121 @@ var g6 = {
         type: 'scatter',
         showlegend:false
     };
-    
-var gda = [g1,g2,g3,g4,g5,g6];
 
-    var gr = document.getElementById('grph');
-    var layout={title: 'Weld Bead Geometry',showlegend: true,
+var gda = [g1,g2,g3,g4,g5,g6];
+    var lay={
+        title: {text: 'Weld Bead Geometry'},
+        showlegend: true,
     legend: {
       x: 1,
       xanchor: 'right',
       y: 1
     },
     font: {
-        family: 'Courier New, monospace',
         size: 15,
-        color: 'black'
+        color: 'blue'
         },
     xaxis: {
-        title:'Plate Width (mm)',
+        title:{text: 'Plate Width (mm)'},
         showticklabels: true,
         autotick: true,
         showgrid: true,
         gridcolor: '#bdbdbd',
-        gridwidth: 1,
-        zerolinecolor: '#969696',
-        zerolinewidth: 3,
+        gridwidth: 0,
         linecolor: '#636363',
         linewidth: 1,
-        zeroline: true,
-        showline: true,
         mirror: 'ticks',
-        range:[10,70]
+        range:[-20,20]
          },
     yaxis: {
-        title:'Plate Thickness (mm)',
+        title:{text: 'Plate Thickness (mm)'},
         showticklabels: true,
         autotick: true,
-        showgrid: true,
-        gridcolor: '#bdbdbd',
-        gridwidth: 1,
-        zerolinecolor: '#969696',
-        zerolinewidth: 3,
         linecolor: '#636363',
         linewidth: 1,
-        zeroline: true,
-        showline: true,
         mirror: 'ticks',
-        range:[10,50]
+        range:[-20,20]
         }
     };
-    Plotly.newPlot(gr, gda, layout);
+    Plotly.newPlot('grph5', gda, lay);
+
 };
+
+
+function adipltm(Xv,Yv1,Yv2,Yv3,Xlbl,titl,grp){
+var g1 = {
+        x: Xv,
+        y: Yv1,
+        type: 'scatter',
+        name: 'Weld Width'
+    };
+var g2 = {
+        x: Xv,
+        y: Yv2,
+        yaxis: 'y2',
+        type: 'scatter',
+        name: 'Weld Height'
+    };
+var g3 = {
+        x: Xv,
+        y: Yv3,
+        yaxis: 'y3',
+        type: 'scatter',
+        name: 'Weld Penetration'
+    };
+
+var gd=[g1,g2,g3];
+
+var lat={ 
+    height:410,
+     title: {
+    text: titl,
+    font: {color: '#1f77b4'}
+
+  },
+
+  xaxis: {domain: [0.0, 0.6],
+    title: {
+      text: Xlbl,
+      font: {color: '#1f77b4'}
+        }
+    },
+
+  yaxis: {
+    title: {
+      text: 'Weld Width (mm)',
+      font: {color: '#1f77b4'}
+    },
+    tickfont: {color: '#1f77b4'}
+  },
+  yaxis2: {
+
+    title: {
+      text: 'Weld Height (mm)',
+      font: {color: '#ff7f0e'}
+    },
+
+    tickfont: {color: '#ff7f0e'},
+    anchor: 'x',
+    overlaying: 'y',
+    side: 'right'
+  },
+
+  yaxis3: {
+    title: {
+      text: 'Weld Penetration (mm)',
+      font: {color: '#9467bd'}
+    },
+
+    tickfont: {color: '#9467bd'},
+    anchor: 'free',
+    overlaying: 'y',
+    side: 'right',
+    position: 0.85
+  }
+};
+if(grp==1){Plotly.newPlot("grph1", gd, lat);}
+else if(grp==2){Plotly.newPlot("grph2", gd, lat);}
+else if(grp==3){Plotly.newPlot("grph3", gd, lat);}
+else if(grp==4){Plotly.newPlot("grph4", gd, lat);}
+}

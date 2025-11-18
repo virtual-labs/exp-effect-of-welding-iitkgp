@@ -14,10 +14,12 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
 table{
     border-width: 0mm;
 }
+
 tr, td{
     width: fit-content;
     border-width: 0mm;
 }
+
 .tdb{
 width: 10em;
 text-align: end;
@@ -26,4 +28,12 @@ text-align: end;
 .ent{
     width: 10em;
     }
-    
+
+.dsbld {
+    pointer-events: none;
+    opacity: 0.5;
+    /* Optional: Add additional styles to convey disabled state 
+    background-color: #f2f2f2;
+    color: #999;*/
+    cursor: not-allowed;
+}
