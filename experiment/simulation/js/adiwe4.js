@@ -71,7 +71,7 @@ function adiwe4(a){
             $("#stp2").hide();
             $("#stp3").hide();
                 $("#adiv").show();
-                $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Adi3_Vid.mp4\" type=\"video/mp4\"> </video> </div>");
+                $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay id=\"adivid\"> <source src=\"./images/Adi3_Vid.mp4\" type=\"video/mp4\"> </video> </div>");
                     document.getElementById("adivid").onended=function(){
                 $("#adivid").hide();
                 $("#adis").show(); 
