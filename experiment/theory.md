@@ -24,6 +24,26 @@ The change in the welding voltage is usually determined by the length of the arc
 
 Arc voltage above the optimal value generates a broad weld which is prone to cracks, and undercut and makes the removal of slag more difficult. Reduced weld voltage generates a more intense arc, which enhances penetration. An excessive reduction in arc voltage produces narrow beads and makes it harder to remove slag from the weld bead.
 
+## V-I Characteristics
+The V-I (voltage-current) characteristics for arc welding describe how the power source's output voltage and current change during the welding process. Different characteristics are used for various welding processes, with common types being drooping (for constant current welding like SMAW an GTAW) and flat (for constant voltage welding like GMAW). A drooping characteristic helps stabilize the arc by keeping current fluctuations minimal when arc length changes, while a flat characteristic provides a steadier voltage for consistent metal transfer. 
+
+## Constant Current (CC):
+In constant-current welding, the current remains almost constant while the voltage varies due to changes in arc length. Small changes in arc length do not significantly affect the current, providing better control of the arc. This V-I characteristic is mainly used in GTAW and SMAW welding processes and the is also termed as drooping characteristics (Fig.2). 
+
+## Constant Voltage (CV):
+In constant voltage welding, the voltage stays nearly the same, but the welding current changes on its own as the arc length changes. This also known as flat V-I characteristics. When the arc length gets shorter, the current increases, and when the arc length gets longer, the current goes down. This helps keep the arc stable. This characteristic is often used in GMAW (Fig.2).
+
+
+<center>
+<img src="./images/Picture2.png" style="width:50%">
+
+##### Fig.2 V-I Characteristics of Power Source drooping characteristics vs flat characteristics
+</center>
+ 
+
+
+
+
 ***(iii) Effect of Welding Speed***
 
 The speed of the arc across the weld bead effects how much heat is added per unit length of the weld bead. When welding speed is increased, the amount to heat added per unit length of the weld bead reduces. Hence, the amount of electrode and workpiece that is melted along the weld line in reduced. This means that there are fewer weld reinforcements and the weld is thin. High weld velocity causes porosity, undercut, irregular weld form, arc blow, cracks, and a rise in the insertion of slag in the welded joint. A comparatively slow welding speed allows the molten metal’s gases to escape, which lowers porosity, and the weld bead obtained is much wider as compared to higher welding speed because welding speed is inversely proportional to the bead width.
