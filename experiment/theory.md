@@ -15,14 +15,15 @@ In this experiment, we examine the impact of several welding parameters, such as
 
 Welding current is an essential characteristic that influences the bead profile of the weld. In SMAW the current can be either AC or DC depending on the electrode that is used. The magnitude of the electric current will directly influence the melting rate of the electrode and the heat transferred to the workpiece. The electrode is usually connected to the positive terminal for consumable electrode welding process like SMAW. The heating rate of the electrode will be higher in DC than in AC due to the constant change is polarity for AC current. 
 
-Welding current controls the quantity of melted base material, HAZ, and penetration depth. Increased welding current results in higher heating and melting rate of the electrode and workpiece. This results in increase in the width of the weld bead and depth of penetration. 
-Welding issues such as an unstable arc, poor penetration are consequences of a low welding current.
+Welding current controls the quantity of melted base material, HAZ, and weld penetration depth. Increased welding current results in higher heating and melting rate of the electrode and workpiece. This results in increase in the width of the weld bead and weld penetration. 
+Welding issues such as an unstable arc, and poor weld penetration are consequences of a low welding current.
 
 ***(ii) Effect of Welding Voltage***
 
 The change in the welding voltage is usually determined by the length of the arc, i.e. the voltage increases with an increase in arc length. The cross-section of the weld bead increases by the rise in voltage as the arc becomes wider arc. On the contrary, too much increase in arc length, will lead to arc wandering and scattering of the molten metal. Raising the voltage while maintaining the current constant will cause the penetration to be shallower, and the weld bead to be broader.
 
-Arc voltage above the optimal value generates a broad weld which is prone to cracks, and undercut and makes the removal of slag more difficult. Reduced weld voltage generates a more intense arc, which enhances penetration. An excessive reduction in arc voltage produces narrow beads and makes it harder to remove slag from the weld bead.
+Arc voltage above the optimal value generates a wide weld which is prone to cracks, and undercut and makes the removal of slag more difficult. Reduced weld voltage generates a more intense arc, which enhances penetration. An excessive reduction in arc voltage produces narrow beads and makes it harder to remove slag from the weld bead.
+
 
 ## V-I Characteristics
 The V-I (voltage-current) characteristics for arc welding describe how the power source's output voltage and current change during the welding process. Different characteristics are used for various welding processes, with common types being drooping (for constant current welding like SMAW an GTAW) and flat (for constant voltage welding like GMAW). A drooping characteristic helps stabilize the arc by keeping current fluctuations minimal when arc length changes, while a flat characteristic provides a steadier voltage for consistent metal transfer. 
@@ -50,6 +51,6 @@ The speed of the arc across the weld bead effects how much heat is added per uni
 
 ***(iv) Effect of Electrode Diameter***
 
-The diameter of the electrode is another crucial factor. Higher welding currents can be carried by larger electrodes. However, smaller electrodes result in faster deposition rates for a given amperage. The deposition rate and depth can be increased by reducing the electrode diameter while maintaining the same current.
+The diameter of the electrode is another crucial factor that affects weld deposition and weld penetration. Larger diameter electrodes can carry higher welding currents, resulting in increased heat input, wider weld beads, deeper penetration and increased reinforcement height due to greater molten metal deposition. However, they require an appropriate current value to prevent excessive melting and spatter. Smaller diameter electrodes, at the same amperage, offer faster deposition rates but shallower penetration, which results in narrower bead widths. Maintaining the same current with a reduced electrode diameter can enhance deposition efficiency and precision. The choice of electrode diameter must align with the welding application to ensure optimal weld quality and mechanical properties.
 
 
