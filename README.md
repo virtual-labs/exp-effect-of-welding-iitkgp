@@ -4,7 +4,7 @@
 <b>Discipline | <b> Mechanical Engineerig
 :--|:--|
 <b> Lab | <b> Welding Lab
-<b> Experiment|     <b> Effect of welding parameters on the weld bead and Experiment 5
+<b> Experiment|     <b> Effect of welding parameters on the weld bead and Experiment 3
 
 ### About the Experiment 
 
