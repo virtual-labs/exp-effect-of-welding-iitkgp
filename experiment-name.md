@@ -1,0 +1,1 @@
+# Effect of welding parameters on the weld bead &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="./images/iitkgp.png" width="8%" />

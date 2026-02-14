@@ -1,0 +1,25 @@
+/**
+ This Scrtpt file is developed by
+Aditya Kameswara Rao Nandula
+Senior Project Scientist,
+Virtual Labs IIT Kharagpur.
+LinkedIn: https://in.linkedin.com/in/akraonandula/
+ */
+hr{
+    height: 3px;
+    border-width: 0px;
+    color: blue;
+    background-color: blue;
+  }
+#adi0c,#adi0a,#adi0b,#adi0d{
+  font-size:large;
+}
+
+embed{
+  width: 100%;
+  min-height: 500px; 
+}
+tr,td{
+  width: 5em;
+  border-width: 1px;
+}
